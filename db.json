@@ -1,6 +1,6 @@
 {
     "data": [
-      { "client_id": 1, "clientname": "hl7", "clientstatus": "active","clientaccessgrants":[
+      { "client_id": 1, "clientname": "hl7","clientid":"testid","clientsecret":"testsecret", "clientstatus": "active","clientaccessgrants":[
           {"api":"patients",
            "group":"admin"
         }
