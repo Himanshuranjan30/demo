@@ -2,7 +2,7 @@
     "data": [
         {
             "message_ctrl_id":"1",
-            "message":"test message 1 just testing whether long ,essage are  visible or not,no hard feelings",
+            "message":"test message 1 just testing whether long ,essage are  visible or not,no hard feelings test message 1 just testing whether long ,essage are  visible or not,no hard feelings",
             "message_status":"active",
             "acknowledgement":"passed",
             "acknowledgement_status":"A"
