@@ -2,7 +2,7 @@
     "data": [
         {
             "message_ctrl_id":"1",
-            "message":"test message 1 just testing whether long ,essage are  visible or not,no hard feelings test message 1 just testing whether long ,essage are  visible or not,no hard feelings",
+            "message":"This is Longer text which needs to be shown with  and show full on hover This is Longer text which needs to be shown with and show full on hover This is Longer text which needs to be shown with and show full on hover",
             "message_status":"active",
             "acknowledgement":"passed",
             "acknowledgement_status":"A"
