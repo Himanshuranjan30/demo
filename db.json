@@ -23,7 +23,7 @@
             "message":"test message 1",
             "message_status":"active",
             "acknowledgement":"passed",
-            "acknowledgement_status":"A"
+            "acknowledgement_status":"NA"
         
             
         },
@@ -32,7 +32,7 @@
             "message":"test message 1",
             "message_status":"inactive",
             "acknowledgement":"passed",
-            "acknowledgement_status":"A"
+            "acknowledgement_status":"NA"
         
             
         },
