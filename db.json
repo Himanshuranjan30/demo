@@ -12,7 +12,7 @@
         {
             "message_ctrl_id":"2",
             "message":"test message 1",
-            "message_status":"active",
+            "message_status":"inactive",
             "acknowledgement":"passed",
             "acknowledgement_status":"A"
         
@@ -30,7 +30,7 @@
         {
             "message_ctrl_id":"4",
             "message":"test message 1",
-            "message_status":"active",
+            "message_status":"inactive",
             "acknowledgement":"passed",
             "acknowledgement_status":"A"
         
@@ -48,7 +48,7 @@
         {
             "message_ctrl_id":"6",
             "message":"test message 1",
-            "message_status":"active",
+            "message_status":"inactive",
             "acknowledgement":"passed",
             "acknowledgement_status":"A"
         
