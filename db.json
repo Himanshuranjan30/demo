@@ -1,73 +1,52 @@
 {
-    "data": [
-      { "client_id": 1, "clientname": "hl7","clientid":"testid","clientsecret":"testsecret", "clientstatus": "active","clientaccessgrants":[
-          {"api":"patients",
-           "group":"admin"
-        {
-            "message_ctrl_id":"1",
-            "message":"test message 1",
-            "message_status":"active",
-            "acknowledgement":"passed",
-            "acknowledgement_status":"A"
-
-
-        },
-        {
-            "message_ctrl_id":"2",
-            "message":"test message 1",
-            "message_status":"active",
-            "acknowledgement":"passed",
-            "acknowledgement_status":"A"
-
-
-        },
-        {
-            "message_ctrl_id":"3",
-            "message":"test message 1",
-            "message_status":"active",
-            "acknowledgement":"passed",
-            "acknowledgement_status":"A"
-
-
-        },
-        {
-            "message_ctrl_id":"4",
-            "message":"test message 1",
-            "message_status":"active",
-            "acknowledgement":"passed",
-            "acknowledgement_status":"A"
-
-
-        },
-        {
-            "message_ctrl_id":"5",
-            "message":"test message 1",
-            "message_status":"active",
-            "acknowledgement":"passed",
-            "acknowledgement_status":"A"
-
-
-        },
-        {
-            "message_ctrl_id":"6",
-            "message":"test message 1",
-            "message_status":"active",
-            "acknowledgement":"passed",
-            "acknowledgement_status":"A"
-
-
-        },
-        {
-            "message_ctrl_id":"7",
-            "message":"test message 1",
-            "message_status":"active",
-            "acknowledgement":"passed",
-            "acknowledgement_status":"A"
-
-
-        }
-
-      ] }
-    ]
-
-  }
+  "messages": [
+    {
+      "msg_id": "2021082111010755885",
+      "interface_id": 5,
+      "status": "QUEUED",
+      "created_at": "2021-08-21 11:01:07.89554",
+      "modified_at": "2021-08-21 11:01:07.89554",
+      "count": 0,
+      "job_data": "{\"event_name\":\"Visit_Close_Having_No_Diagnosis\",\"applicable_visit\":\"ALL\",\"center_id\":0,\"interface_id\":5,\"message_type\":\"ADT_A11\",\"event_mapping_id\":46,\"message_version\":\"2.5.1\",\"event_id\":8,\"priority\":0,\"hl7_message\":\"MSH|^~\\\\&|PRACTOEMR^PRACTOEMR|PRACTOEMR^PRACTOEMR|Rhapsody^MALAFFI|ADHIE|20210821110107+0530||ADT^A11|2021082111010755885|P|2.5.1\\rEVN|A11|20210821110107\\rPID|1|OP121966|MR013970^^^&PRACTOEMR||Ranjan^Himanshu||20000220|M|||^^BANGALORE^^^IND|||00917259460834^^CC||U^Unknown^MALAFFI|OTH^Other^MALAFFI|||||||||||BID^Bidoun^MALAFFI\\rPV1|1|O|^^^^^C|||||||20||||9|||||OP121966^^^&PRACTOEMR|||||||||||||||||||||||||20210820122025|20210821110046\\r\"}",
+      "acknowledge_msg": null,
+      "acknowledge_status": null,
+      "event_processing_id": null
+    },
+    {
+      "msg_id": "2021082012204615964",
+      "interface_id": 5,
+      "status": "QUEUED",
+      "created_at": "2021-08-20 12:20:46.187297",
+      "modified_at": "2021-08-20 12:31:06.622",
+      "count": 5,
+      "job_data": "{\"event_name\":\"New_Patient_Reg\",\"event_id\":2,\"event_mapping_id\":35,\"center_id\":0,\"interface_id\":5,\"message_version\":\"2.5.1\",\"applicable_visit\":\"OP\",\"message_type\":\"ADT_A04\",\"priority\":1,\"hl7_message\":\"MSH|^~\\\\&|PRACTOEMR^PRACTOEMR|PRACTOEMR^PRACTOEMR|Rhapsody^MALAFFI|ADHIE|20210820122046+0530||ADT^A04|2021082012204615964|P|2.5.1\\rEVN|A04|20210820122046\\rPID|1|OP121966|MR013970^^^&PRACTOEMR||Ranjan^Himanshu||20000220|M|||^^BANGALORE^^^IND|||00917259460834^^CC||U^Unknown^MALAFFI|OTH^Other^MALAFFI|||||||||||BID^Bidoun^MALAFFI\\rPV1|1|O|^^^^^C|||||||20||||9|||||OP121966^^^&PRACTOEMR|||||||||||||||||||||||||20210820122025\\r\"}",
+      "acknowledge_msg": "null",
+      "acknowledge_status": "null",
+      "event_processing_id": null
+    },
+    {
+      "msg_id": "2021082012204575430",
+      "interface_id": 5,
+      "status": "QUEUED",
+      "created_at": "2021-08-20 12:20:46.187297",
+      "modified_at": "2021-08-20 12:27:06.473",
+      "count": 3,
+      "job_data": "{\"event_name\":\"New_Patient_Reg\",\"event_id\":2,\"center_id\":0,\"interface_id\":5,\"event_mapping_id\":34,\"message_type\":\"ADT_A28\",\"message_version\":\"2.5.1\",\"applicable_visit\":\"OP\",\"priority\":0,\"hl7_message\":\"MSH|^~\\\\&|PRACTOEMR^PRACTOEMR|PRACTOEMR^PRACTOEMR|Rhapsody^MALAFFI|ADHIE|20210820122045+0530||ADT^A28|2021082012204575430|P|2.5.1\\rEVN|A28|20210820122045\\rPID|1|OP121966|MR013970^^^&PRACTOEMR||Ranjan^Himanshu||20000220|M|||^^BANGALORE^^^IND|||00917259460834^^CC||U^Unknown^MALAFFI|OTH^Other^MALAFFI|||||||||||BID^Bidoun^MALAFFI\\rPV1|1|O|^^^^^C|||||||20||||9|||||OP121966^^^&PRACTOEMR|||||||||||||||||||||||||20210820122025\\r\"}",
+      "acknowledge_msg": "null",
+      "acknowledge_status": "null",
+      "event_processing_id": null
+    },
+    {
+      "msg_id": "2021082012204613152",
+      "interface_id": 5,
+      "status": "QUEUED",
+      "created_at": "2021-08-20 12:20:46.187297",
+      "modified_at": "2021-08-20 12:28:06.517",
+      "count": 3,
+      "job_data": "{\"event_name\":\"New_Patient_Reg\",\"event_mapping_id\":38,\"event_id\":2,\"center_id\":0,\"interface_id\":5,\"message_type\":\"ADT_A28\",\"message_version\":\"2.5.1\",\"priority\":0,\"applicable_visit\":\"OSP\",\"hl7_message\":\"MSH|^~\\\\&|PRACTOEMR^PRACTOEMR|PRACTOEMR^PRACTOEMR|Rhapsody^MALAFFI|ADHIE|20210820122046+0530||ADT^A28|2021082012204613152|P|2.5.1\\rEVN|A28|20210820122046\\rPID|1|OP121966|MR013970^^^&PRACTOEMR||Ranjan^Himanshu||20000220|M|||^^BANGALORE^^^IND|||00917259460834^^CC||U^Unknown^MALAFFI|OTH^Other^MALAFFI|||||||||||BID^Bidoun^MALAFFI\\rPV1|1|O|^^^^^C|||||||20||||9|||||OP121966^^^&PRACTOEMR|||||||||||||||||||||||||20210820122025\\r\"}",
+      "acknowledge_msg": "null",
+      "acknowledge_status": "null",
+      "event_processing_id": null
+    }
+  ]
+}
