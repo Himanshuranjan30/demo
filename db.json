@@ -1,6 +1,7 @@
-{
+{"interfaces":{
   "8" : "Malaffi_ORU",
   "5" : "Malaffi_ADT",
   "6" : "Malaffi_PPR",
   "7" : "Malaffi_OMP_RDS"
+}
 }
